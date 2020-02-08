@@ -1,0 +1,27 @@
+{
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"https://wpackagist.org"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/nickmccally/WordPress-Bootstrap-Demo"
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "*",
+    "wpackagist-plugin/custom-post-type-ui":"*",
+    "wpackagist-plugin/advanced-custom-fields":"*",
+    "nickmccally/wordpress-bootstrap-demo": "dev-master",
+    "wpackagist-plugin/custom-post-type-permalinks":"*",
+    "wpackagist-plugin/stock-quote":"0.2.1"
+
+  },
+  "extra": {
+      "installer-paths": {
+          "wordpress/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+          "wordpress/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+      }
+  }
+}
