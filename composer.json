@@ -11,11 +11,11 @@
   ],
   "require": {
     "johnpbloch/wordpress": "*",
-    "wpackagist-plugin/custom-post-type-ui":"*",
-    "wpackagist-plugin/advanced-custom-fields":"*",
-    "nickmccally/wordpress-bootstrap-demo": "dev-master",
-    "wpackagist-plugin/custom-post-type-permalinks":"*",
-    "wpackagist-plugin/stock-quote":"0.2.1"
+      "wpackagist-plugin/custom-post-type-ui":"*",
+      "wpackagist-plugin/advanced-custom-fields":"*",
+      "wpackagist-plugin/custom-post-type-permalinks":"*",
+      "wpackagist-plugin/stock-quote":"*",
+      "nickmccally/wordpress-bootstrap-demo": "dev-master"
 
   },
   "extra": {

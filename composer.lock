@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "86603a760253b5e7795d00eef84677f9",
+    "content-hash": "76def8cb6dcde27291297a4142196bdc",
     "packages": [
         {
             "name": "composer/installers",
@@ -264,16 +264,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nickmccally/WordPress-Bootstrap-Demo.git",
-                "reference": "bdd84f4f30c0bad5da13a8ae0cc50a0ba287afc0"
+                "reference": "d60901c47efc4f6fb9a54623ebc4c154380d3756"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nickmccally/WordPress-Bootstrap-Demo/zipball/bdd84f4f30c0bad5da13a8ae0cc50a0ba287afc0",
-                "reference": "bdd84f4f30c0bad5da13a8ae0cc50a0ba287afc0",
+                "url": "https://api.github.com/repos/nickmccally/WordPress-Bootstrap-Demo/zipball/d60901c47efc4f6fb9a54623ebc4c154380d3756",
+                "reference": "d60901c47efc4f6fb9a54623ebc4c154380d3756",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "^1.5"
+                "composer/installers": "^1.5",
+                "johnpbloch/wordpress": "*",
+                "johnpbloch/wordpress-core": "*"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
@@ -303,7 +305,7 @@
                 "source": "https://github.com/nickmccally/WordPress-Bootstrap-Demo/tree/master",
                 "issues": "https://github.com/nickmccally/WordPress-Bootstrap-Demo/issues"
             },
-            "time": "2020-02-06T21:57:10+00:00"
+            "time": "2020-02-08T03:05:21+00:00"
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
