@@ -7,15 +7,24 @@
     {
         "type": "vcs",
         "url": "https://github.com/nickmccally/WordPress-Bootstrap-Demo"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/nickmccally/ticker-symbol"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/nickmccally/wp-custom-post-type-pagination"
     }
   ],
   "require": {
     "johnpbloch/wordpress": "*",
       "wpackagist-plugin/custom-post-type-ui":"*",
       "wpackagist-plugin/advanced-custom-fields":"*",
-      "wpackagist-plugin/custom-post-type-permalinks":"*",
-      "wpackagist-plugin/stock-quote":"*",
-      "nickmccally/wordpress-bootstrap-demo": "dev-master"
+      "wpackagist-plugin/font-awesome":">=4.0.0-rc13",
+      "nickmccally/wordpress-bootstrap-demo": "dev-master",
+      "nickmccally/wp-custom-post-type-pagination":"dev-master",
+      "nickmccally/ticker-symbol":"dev-master"
 
   },
   "extra": {
