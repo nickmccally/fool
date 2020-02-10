@@ -4,6 +4,7 @@
 - composer (dependency manager)
 - PHP
 - MySQL 
+- curl (php7-curl)
 
 ## Install
 - After you have cloned the repo, run `composer install`
